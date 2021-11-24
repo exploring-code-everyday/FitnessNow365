@@ -1,0 +1,97 @@
+/*Master Styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color:rgb(208, 232, 255) ;
+    color: rgb(80, 93, 107);
+    font-family: Orbitron, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    }
+    
+    /*Navigation styles*/
+  #navbar ul{
+   margin: 0%;
+    list-style: none;
+    
+}
+#navbar li{
+    text-decoration-style: dotted;
+    display: inline;
+    float: left;
+
+}#navbar a{
+    color: aliceblue;
+    font-size: 18px;
+    text-decoration: none;
+    padding-right: 20px;
+
+}
+    .nav-wrapper{
+      display: flex;
+      justify-content: space-between;
+      padding: 38px;
+  }
+  
+  .left-side{
+      display: flex;
+  }
+  
+  .nav-wrapper>.left-side>div{
+      margin-right: 20px;
+      font-size: 0.9em;
+      text-transform: uppercase;
+  }
+  
+  .navlinkwrap{
+      height: 22px;
+      border-bottom: 1px solid transparent;
+      transition: border-bottom .05s ;
+  }
+  .navlinkwrap a{
+      color: rgb(90, 90, 90);
+      text-decoration: none;
+      transition: color .5s;
+  }
+  .navlinkwrap:hover{
+    border-bottom: 1px solid rgb(60, 99, 230);
+  }
+  .navlinkwrap a:hover{
+      color:rgb(60, 99, 230); 
+  }
+  
+  .navlinkwrap a:hover{
+    border-bottom: 1px solid rgb(60, 99, 230);
+  }
+
+  .right-side{
+      display: flex;
+  }
+
+  .righwrap>.right-side>div{
+      font-size: .9em;
+      text-transform: uppercase;
+  }
+
+  .login a{
+      color: rgb(90, 90, 90);
+      text-decoration: none;
+      transition: color .5s;
+  }
+
+  .login:hover{
+    border-bottom: 1px solid rgb(60, 99, 230);
+  }
+  
+  .login a:hover{
+    color: rgb(60, 99, 230);
+  }
+  
+  #quads{
+
+  }
